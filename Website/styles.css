@@ -1,0 +1,187 @@
+
+
+h1
+{
+margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: #203c14;
+  margin-bottom:
+  background-color: #fcf4e4;
+}
+
+
+
+h2
+{
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: #203c14;
+  margin-bottom:
+  background-color: #fdfdf5;
+}
+
+h3
+{
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #203c14;
+  margin-bottom:
+  background-color: #fdfdf5;
+}
+
+h4
+{
+margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  letter-spacing: 6px;
+  color: #f0fbed;
+  margin-bottom:
+  background-color: #203c14;
+}
+
+h5
+{
+margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  text-align: left;
+  color: #203c14;
+  margin-bottom:
+  background-color: #fdfdf5;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+p
+{
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 22px;
+  color: #203c14;
+  background-color: #fdfdf5;
+  margin-left: 60px;
+  margin-right:60px;
+}
+
+
+
+body {
+
+  text-align: left;
+  margin: 0 auto;
+  background-color: #fdfdf5;
+
+}
+
+.wrapimage {
+ float: left;
+ padding: 0 40px 0 0;}
+
+
+ .header {
+   padding: 30px;
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+   background: #fdfdf5;
+   color: #203c14;
+
+ }
+
+
+
+
+/* unvisited link */
+a:link {
+  color: #203c14;
+}
+
+/* visited link */
+a:visited {
+  color: #203c14;
+}
+
+/* mouse over link */
+a:hover {
+  color: #203c14;
+}
+
+/* selected link */
+a:active {
+  color: #203c14;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #fdfdf5;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #203c14;
+  font-size: 20;
+    transition: all 500ms;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  font-size: 20px;
+  font-size-adjust: 7px;
+  background-color: #fdfdf5;
+  color: #203c14;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.bottomnav {
+  background-color: #fdfdf5;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  bottom: 20%;
+
+}
+
+/* Style the links inside the navigation bar */
+.bottomnav a {
+  float: right;
+  color: #203c14;
+  font-size: 30;
+    transition: all 500ms;
+  text-align: center;
+  padding: 30px 7px;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+/* Change the color of links on hover */
+.bottomnav a:hover {
+  font-size: 20px;
+  font-size-adjust: 10px;
+  background-color: #fdfdf5;
+  color: #203c14;
+}
