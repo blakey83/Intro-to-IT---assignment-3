@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+  <title>TEAM NAME</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- FONT -->
+  <script src="https://kit.fontawesome.com/593aef930f.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href="styles.css" rel="stylesheet">
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+  <div class="topnav">
+      <a href="home.html" class="fas fa-circle" id="navHome"></a>
+      <a href="us.html">Us</a>
+      <a href="technologies.html">Technologies</a>
+      <a href="data.html">Data</a>
+      <a href="whitepaper.html">White Paper</a>
+  </div>
+
+  <div class="pageContentModal">
+    <div class="usblurb">
+      <h5>Us &mdash;</h5>
+      <p class ="tagline">We are a symbiosis of bla bla with a unified vision to bring bla bla to the world.</p>
+    </div>
+    <br>
+
+    <p class="h7">Collective</p>
+    <div class="container">
+        <img class = "row" id="getInfo" data-toggle="modal" data-target="#details" src="placeholder.jpeg" alt="Nicholas Drinkwater, PHD, Head of Engineering">
+        <img class = "row" id="getInfo1" data-toggle="modal" data-target="#details" src="placeholder.jpeg" alt="Erin Paton, PHD, Head of Great Ideas">
+        <img class = "row" id="getInfo2" data-toggle="modal" data-target="#details" src="placeholder.jpeg" alt="Nicholas Drinkwater, PHD, Head of Engineering">
+        <img class = "row" id="getInfo3" data-toggle="modal" data-target="#details" src="placeholder.jpeg" alt="Nicholas Drinkwater, PHD, Head of Engineering">
+        <img class = "row" id="getInfo4" data-toggle="modal" data-target="#details" src="placeholder.jpeg" alt="Nicholas Drinkwater, PHD, Head of Engineering">
+        <img class = "row" id="getInfo5" data-toggle="modal" data-target="#details" src="placeholder.jpeg" alt="Nicholas Drinkwater, PHD, Head of Engineering">
+    </div>
+    <br>
+    <p class="h7">Advisory Board</p>
+      <div class="container">
+        <div class="row">
+          <img class = "row" id="getInfo6" data-toggle="modal" data-target="#details" src="placeholder.jpeg" alt="Nicholas Drinkwater, PHD, Head of Engineering">
+        </div>
+      </div>
+
+    <div class="modal fade" id="details">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title"></h6>
+          </div>
+          <div class="modal-body">
+            <p class="mainText"></p>
+            <p class="mainTextBanner1" id = "mainTextBanner"></p>
+            <p class="mainText1"></p>
+            <p class="mainTextBanner2" id = "mainTextBanner"></p>
+            <p class="mainText2"></p>
+            <p class="mainTextBanner3" id = "mainTextBanner"></p>
+            <p class="mainText3"></p>
+            <p class="mainTextBanner4" id = "mainTextBanner"></p>
+            <p class="mainText4"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" >Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottomnav">
+      <a href="references.html">&mdash; Reference Library &nbsp;</a>
+      <a href="home.html" class="fas fa-circle"></a>
+      <a href="https://github.com/blakey83/Intro-to-IT---assignment-2" class="fab fa-github" target="_blank" rel="noopener noreferrer"> &nbsp;</a>
+    </div>
+  </div>
+</body>
+</html>

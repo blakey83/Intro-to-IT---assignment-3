@@ -1,62 +1,102 @@
+body{
+  color: #203c14;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fdfdf5;
+  margin:0px;
+  width:100%;
+  height:100%;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+}
 
+a:link {
+  color: #203c14;
+}
+
+a:visited {
+  color: #203c14;
+}
+
+a:hover {
+  color: #203c14;
+}
+
+a:active {
+  color: #203c14;
+}
+
+button{
+  background-color: #203c14 !important;
+}
 
 h1
 {
-margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
   font-size: 60px;
-  text-align: center;
   letter-spacing: 4px;
-  color: #203c14;
-  margin-bottom:
-  background-color: #fcf4e4;
 }
-
-
 
 h2
 {
-  margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
   font-size: 35px;
-  text-align: center;
-  color: #203c14;
-  margin-bottom:
-  background-color: #fdfdf5;
 }
 
 h3
 {
-  margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
   font-size: 22px;
-  text-align: center;
-  color: #203c14;
-  margin-bottom:
-  background-color: #fdfdf5;
 }
 
 h4
 {
-margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
   font-size: 100px;
-  text-align: center;
   letter-spacing: 6px;
-  color: #f0fbed;
-  margin-bottom:
-  background-color: #203c14;
 }
 
 h5
 {
-margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
   font-size: 35px;
   text-align: left;
-  color: #203c14;
-  margin-bottom:
-  background-color: #fdfdf5;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+h6
+{
+  font-size: 35px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 165px;
+}
+
+.bottomnav {
+  overflow: hidden;
+  position: absolute;
+  right:0px;
+}
+
+.bottomnav a {
+  text-align: right;
+  transition: all 500ms;
+  padding: 20px 5px;
+  text-decoration: none;
+  font-size: 21px;
+
+}
+.bottomnav a:hover {
+  font-size: 20px;
+}
+
+#navHome{
+  text-align: right;
+  transition: all 300ms;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+#navHome:hover{
+  color: #505E4A;
 }
 
 .center {
@@ -66,122 +106,112 @@ margin: 0 auto;
   width: 50%;
 }
 
-
-
-p
-{
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 1.5px;
-  font-size: 22px;
-  color: #203c14;
-  background-color: #fdfdf5;
-  margin-left: 60px;
-  margin-right:60px;
+.column {
+  float: center;
+  width: 33.33%;
+  padding: 5px;
 }
 
+.container {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 65px;
+}
 
-
-body {
-
-  text-align: left;
-  margin: 0 auto;
-  background-color: #fdfdf5;
+.container2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 155px;
 
 }
 
-.wrapimage {
- float: left;
- padding: 0 40px 0 0;}
-
-
- .header {
+.header {
    padding: 30px;
    text-align: center;
-   font-family: 'Open Sans', sans-serif;
    font-size: 15px;
-   background: #fdfdf5;
-   color: #203c14;
-
  }
 
-
-
-
-/* unvisited link */
-a:link {
-  color: #203c14;
+.h7{
+  margin-left: 10%;
 }
 
-/* visited link */
-a:visited {
-  color: #203c14;
+#mainTextBanner{
+  font-size: 18px;
+  font-weight: bolder;
+  color: #000;
+  word-spacing: -3px;
 }
 
-/* mouse over link */
-a:hover {
-  color: #203c14;
+.modal-body{
+  font-size: 16px;
+  margin-left: 15px;
+  word-spacing: -3px;
 }
 
-/* selected link */
-a:active {
-  color: #203c14;
+.modal-content{
+    background-color: #fdfdf5;
+    margin:0px;
+    width:100%;
+    height:100%;
+    color: #203c14;
+    font-family: 'Open Sans', sans-serif;
 }
 
+.pageContent{
+  margin-right: 70px;
+  margin-left: 70px;
+}
 
-/* Add a black background color to the top navigation */
+.pageContentModal{
+  margin-right: 30px;
+}
+
+.row{
+  padding-bottom: 30px;
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+.row:hover{
+  opacity: 50%;
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.tagline
+{
+  text-align:right;
+  padding-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 190px;
+  letter-spacing: 1.5px;
+  font-size: 25px;
+}
+
 .topnav {
-  background-color: #fdfdf5;
   overflow: hidden;
-  font-family: 'Open Sans', sans-serif;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #203c14;
   font-size: 20;
-    transition: all 500ms;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-  font-size: 20px;
-  font-size-adjust: 7px;
-  background-color: #fdfdf5;
-  color: #203c14;
+  text-decoration: underline;
 }
 
-/* Place the navbar at the bottom of the page, and make it stick */
-.bottomnav {
-  background-color: #fdfdf5;
-  overflow: hidden;
-  font-family: 'Open Sans', sans-serif;
-  bottom: 20%;
-
+.usblurb {
+   font-size: 13px;
+   margin-left: 40px;
 }
 
-/* Style the links inside the navigation bar */
-.bottomnav a {
-  float: right;
-  color: #203c14;
-  font-size: 30;
-    transition: all 500ms;
-  text-align: center;
-  padding: 30px 7px;
-  text-decoration: none;
-  font-size: 30px;
-
-}
-
-/* Change the color of links on hover */
-.bottomnav a:hover {
-  font-size: 20px;
-  font-size-adjust: 10px;
-  background-color: #fdfdf5;
-  color: #203c14;
-}
+.wrapimage {
+ float: left;
+ padding: 0 40px 0 0;}
