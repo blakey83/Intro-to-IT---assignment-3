@@ -2,11 +2,17 @@ body{
   color: #203c14;
   font-family: 'Open Sans', sans-serif;
   background-color: #fdfdf5;
-  margin:0px;
+  margin: auto;
   width:100%;
   height:100%;
   font-size: 22px;
   letter-spacing: 1.5px;
+  max-width: 1500px;
+  align-content: center;
+}
+
+a{
+  transition: 300ms;
 }
 
 a:link {
@@ -19,14 +25,20 @@ a:visited {
 
 a:hover {
   color: #203c14;
+  text-decoration: none;
+  opacity: 70%;
+}
+
+a:focus{
+  text-decoration: none;
 }
 
 a:active {
   color: #203c14;
 }
 
-button{
-  background-color: #203c14 !important;
+button:hover{
+  opacity: 50%
 }
 
 h1
@@ -37,12 +49,19 @@ h1
 
 h2
 {
-  font-size: 35px;
+  font-size: 19px;
+  margin:10px 10px 0px 20px;
+  color: #000;
 }
 
 h3
 {
-  font-size: 22px;
+  font-size: 24px;
+  font-weight: bold;
+  margin:0px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin:10px 10px 0px 10px;
 }
 
 h4
@@ -56,8 +75,8 @@ h5
   font-size: 35px;
   text-align: left;
   margin-top: 50px;
-  margin-left: 30px;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 h6
@@ -68,6 +87,11 @@ h6
   margin-bottom: 20px;
   margin-right: 20px;
   margin-left: 165px;
+}
+
+li{
+  font-size: 14px;
+  margin:0px;
 }
 
 .bottomnav {
@@ -88,17 +112,6 @@ h6
   font-size: 20px;
 }
 
-#navHome{
-  text-align: right;
-  transition: all 300ms;
-  text-decoration: none;
-  font-size: 21px;
-}
-
-#navHome:hover{
-  color: #505E4A;
-}
-
 .center {
   display: block;
   margin-left: auto;
@@ -112,18 +125,28 @@ h6
   padding: 5px;
 }
 
+.col-2{
+}
+
+.col-10{
+  text-align: left;
+}
+
 .container {
   text-align: center;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;
   margin-right: 20px;
-  margin-left: 65px;
+  margin-left: 50px;
+  min-width: 1250px;*/
+  margin:auto;
+  min-width: 100%;
 }
 
 .container2 {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
-  margin-left: 155px;
+  margin-left: 65px;
 
 }
 
@@ -133,29 +156,82 @@ h6
    font-size: 15px;
  }
 
+.h5Us{
+  font-size: 35px;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 32px;
+  font-weight: 500;
+}
+
 .h7{
   margin-left: 10%;
 }
 
-#mainTextBanner{
+.mainTextTech{
+  font-size: 16px;
+}
+
+.meeting1H3{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin:0px;
+  padding:0px;
+}
+
+.meeting2H3{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px 0px 7px 0px;
+  padding:0px;
+}
+
+.meetingImg{
+  color:#fdfdf5 !important;
+  background-color: #203c14;
+  padding: 14px 25px;
   font-size: 18px;
-  font-weight: bolder;
-  color: #000;
-  word-spacing: -3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:1px;
+  transition: 300ms;
+}
+.meetingImg:hover{
+  opacity: 70%;
+}
+
+.meetingLink{
+  padding-top: 0px;
+  color:#fdfdf5 !important;
+  background-color: #333333;
+  padding: 0px 57.5px;
+  font-size: 12px;
+  text-align: center;
+  margin: 2px 0px 2px 6px;
+  float:left;
+  text-decoration: none;
+  display: inline-block;
+  transition: 300ms;
+}
+.meetingLink:hover{
+  opacity: 70%;
 }
 
 .modal-body{
   font-size: 16px;
   margin-left: 15px;
   word-spacing: -3px;
+  text-align: left;
 }
 
 .modal-content{
     background-color: #fdfdf5;
+    color: #203c14;
     margin:0px;
     width:100%;
     height:100%;
-    color: #203c14;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -165,16 +241,15 @@ h6
 }
 
 .pageContentModal{
-  margin-right: 30px;
 }
 
-.row{
+.imageRow{
   padding-bottom: 30px;
   padding-right: 10px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
-.row:hover{
+.imageRow:hover{
   opacity: 50%;
   transition:0.5s;
   cursor: pointer;
@@ -184,10 +259,13 @@ h6
 {
   text-align:right;
   padding-top: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-left: 190px;
   letter-spacing: 1.5px;
-  font-size: 25px;
+  font-size: 35px;
+  font-weight: 700;
+  margin-right: 30px;
+  color: #333333;
 }
 
 .topnav {
@@ -212,6 +290,75 @@ h6
    margin-left: 40px;
 }
 
-.wrapimage {
- float: left;
- padding: 0 40px 0 0;}
+ /*Accordion CSS*/
+
+.accordionCard{
+    margin-bottom: 10px;
+}
+
+ .accordionContent {
+ 	color: #324353;
+ 	padding: 0.5rem 3rem;
+  font-size: 16px;
+  max-width: 80%;
+  margin:auto;
+  margin-left: 50px;
+ }
+
+#accBtn {
+ 	position: relative;
+ 	padding-left: 50px;
+  padding-top: 10px;
+  font-size: 18px;
+  transition: 300ms;
+ }
+ .btn:hover {
+   opacity: 60%;
+ }
+
+.cardHeader{
+    width:80%;
+    max-width: 80%;
+    margin:auto;
+    border-color: #A1B2AA;
+    border-bottom: 0.5px solid;
+    margin-left: 50px;
+}
+
+ .cardHeader i {
+ 	position: absolute;
+  left:7px;
+ 	top: 9px;
+ }
+
+i{
+   margin-top: 5px;
+   transition: 300ms;
+ }
+ .highlight i {
+ 	transform: rotate(180deg);
+ }
+ /*END Accordion CSS*/
+
+ #closeModal{
+   background-color: #203c14 !important;
+   transition: all 300ms;
+ }
+
+ #navHome{
+   text-align: right;
+   transition: all 300ms;
+   text-decoration: none;
+   font-size: 21px;
+ }
+
+ #navHome:hover{
+   opacity: 50%
+ }
+
+ #mainTextBanner{
+   font-size: 18px;
+   font-weight: bolder;
+   color: #000;
+   word-spacing: -3px;
+ }

@@ -11,27 +11,202 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
   <link href="styles.css" rel="stylesheet">
+  <script src="scripts.js"></script>
 </head>
 <body>
 
   <div class="topnav">
-      <a href="home.html" class="fas fa-circle" id="navHome"></a>
-      <a href="us.html">Us</a>
-      <a href="technologies.html">Technologies</a>
-      <a href="data.html">Data</a>
-      <a href="whitepaper.html">White Paper</a>
-    </div>
+    <a href="home.html" class="fas fa-circle" id="navHome"></a>
+    <a href="us.html">Us</a>
+    <a href="technologies.html">Technologies</a>
+    <a href="data.html">Data</a>
+    <a href="whitepaper.html">White Paper</a>
+  </div>
 
   <div class="pageContent">
-    <h5>Bla Bla Bla &mdash;</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    <h5>Technologies &mdash;</h5>
+    <!--Accordion 1 -->
+    <h3>Autonomous Vehicles</h3>
+    <div class="accordion" id="accordionParent">
+      <div class="accordionCard">
+        <div class="cardHeader">
+            <a class="btn" id="accBtn" data-toggle="collapse" data-target="#collapseOneAcc1"><i class="fas fa-arrow-up"></i>What It Does</a>
+        </div>
+        <div id="collapseOneAcc1" class="collapse show" data-parent="#accordionParent">
+          <div class="accordionContent">Self-evidently, autonomous vehicles (AVs) are automobiles and machines that are able to operate without human control. Although we are yet to see these on the roads of our cities, AVs are a reality in the resources industry, with Rio Tinto alone operating over 130 autonomous trucks in Western Australia’s Pilbara region (Frangoul 2020). Presently, simple haulage of mining dirt can be carried out by level 5 AVs (Truecar Adviser 2018), which are designed to operate synchronously alongside other manned vehicles such as mobile mining equipment and light vehicles, however, only in the highly controlled mining environment at present. (need more info here - only in the mining space for what reason?) All vehicles that enter the operations zone are able to be located by the AVs while undertaking autonomous operations with each vehicle in the area fitted with specialised communications and GPS equipment (Departments of mines and petroleum 2015).</div>
+          <div class="accordionContent">While the current technology is impressive, it is still relatively rudimentary in terms of artificial intelligence (AI). The action an AV takes from a digger or loader to a dump area or crusher is determined and mapped by a manned vehicle, with the AV simply following the designated path. In the future, AI combined with automation in the mining environment will afford the ability for command-and-control systems to determine the safest and most efficient path without the need for a manned forerunner. Early iterations of this technology are already being piloted in Australia with Roy Hill Holdings implementing Automation Solutions Inc's 'Mobius Command & Control' on their Pilbara sites, representing a significant leap in the development of vehicle automation, not only in a mining context but for the future of AVs as a whole (ASI n.d.) (Canadian Mining Journal Staff 2020).</div>
+          <div class="accordionContent">It's no surprise that the mining industry has led the technological charge on vehicle automation use cases, made accessible by astronomical capital expenditure budgets, particularly in the Iron Ore subsector (Peters 2019). With companies like ASI Robotics driving the development of AI & AV technology forward (ASI n.d.) and industry of this magnitude spearheading the application of these technologies, it's not implausible to surmise that we'll have the resources sector to thank for the driverless cars that inevitably find their way onto public roads (Peters 2019).</div>
+          <div class="accordionContent">The technology underpinning AVs in the resources sector today is a convergence of Information technology and electronic/electrical engineering. For a truck to operate autonomously, multitudes of computations need to take place at rapid speeds, all occurring from within a control unit using a processor, memory, I/O cards, and more. The Vehicle control unit also acts as an intermediary with a series of microcontrollers ensuring drive by wire operations and a wireless network router, usually either Wi-Fi or 4G LTE (ASI robots n.d).</div>
+          <div class="accordionContent">Advancements within telecommunications have played a key role in the ability to operate an AV. Fundamentally, AHS trucks need to determine 3 core particulars in order to perform safely.
+            <ol>
+              <li>The AV’s current location</li>
+              <li>The path to the AV’s required endpoint</li>
+              <li>The whereabouts of surrounding vehicles & equipment</li>
+            </ol>
+          </div>
+          <div class="accordionContent">Wi-Fi or Long-Term Evolution (LTE) coverage is essential in order for a control and communication network to function (Ayres 2017). Developments in Wireless data transfer in the 1990s allowed for the first Wi-Fi standard, 802.11 protocol, to come into existence in 1997 (cablefree 2017). The release of the 802.11g protocol in 2003 allowed the average throughput of 22Mb/s at the 2.4 GHz band, enabling the adoption of Automated Haulage inside a mine site. Recent trends in favour of LTE technology have facilitated greater data throughput, enabled valuable additions such as camera feed, as well as making the algorithms used for handover between cells more productive (Bonilla & Navarez 2018).</div>
+        </div>
+      </div>
 
-  <div class="bottomnav">
+      <!--data-parent="#accordionParent" - Put in collapseTwoAcc1 or in collapseOneAcc1 if want to close when click on sibling -->
+      <div class="accordionCard">
+        <div class="cardHeader">
+            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseTwoAcc1"><i class="fas fa-arrow-up"></i>The Likely Impact</a>
+        </div>
+        <div id="collapseTwoAcc1" class="collapse" data-parent="#accordionParent">
+          <div class="accordionContent">The impact of AVs on mine sites is significant, the foremost being increased productivity, safety, and decreased human resource expenditure. In any environment, people by nature are vulnerable to human error and risk, and this is especially so on the mining site. A large mining organisation may use as many as 70 trucks during any given shift, requiring 70 individual drivers, each with their own set of possible vulnerabilities and risk factors from health concerns, to emotional distractions, to their level of experience or expertise. Consider then the ceaseless nature of mining operations with 2 x 12-hour shifts being carried out daily, meaning a mine could need as many as 280 drivers in its employ. With this in mind, it’s no surprise that large mining companies are investing heavily in the adoption of state-of-the-art technologies.</div>
+          <div class="accordionContent">Rio Tinto, Australia’s largest mining corporation and iron ore manufacturer, spent over $2 billion on automation projects prior to 2017. Between 2014 and 2017, the Company saw an enormous 37% increase in per-person productivity on their sites (Francis 2018). Further to increased productivity, additional benefits such as improved fuel efficiency and decreased wear on engines have been observed whilst implementing AVs in lieu of manned vehicles on mining sites (Miller 2019).</div>
+          <div class="accordionContent">Arguably the most important impact is that of the safety of mining personnel. In 2018, a 28-year-old Haul truck driver at Rio Tinto’s Chennar mine tragically lost his life when his truck veered off a road during a night shift (Newell 2018). Sadly, incidents in which personnel are injured or killed driving haul trucks on mining sites are not uncommon. By eliminating the driver, mining companies significantly reduce the risk of these occurrences.</div>
+          <div class="accordionContent">On the reverse side, the adoption of automation across the mining industry will naturally come at the expense of existing skilled workers. By 2030, up to an estimated 77,000 frontline jobs are expected to be lost to automation the mining industry, however, an initial offset of 44,000 new roles will be created to support the technological shift, in addition to around 63,000 new jobs in the supply chain to operate advanced equipment, administer software, and manage other capital goods to support mining automation (Nera & Mets Ingited 2018).</div>
+        </div>
+        </div>
+
+      <div class="accordionCard">
+        <div class="cardHeader">
+            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseThreeAcc1"><i class="fas fa-arrow-up"></i>How It Affects Me</a>
+        </div>
+        <div id="collapseThreeAcc1" class="collapse" data-parent="#accordionParent">
+          <div class="accordionContent">Being an Automation Project Specialist in the mining industry, this technology has affected me significantly. At present, my position requires me to play an integral role in upgrading Roy Hill mine's manned fleet of 77 trucks to a fully autonomous fleet, meaning I'm experiencing and delivering AV technology firsthand. Without a push into the automated space, I'd likely have difficulty finding work in the industry as I have no driving or civil engineering experience. The enormity of Australia's mining industry means we're pioneering the real-world application of automation, creating more opportunities for me to work with state-of-the-art AV and AI technologies.</div>
+          <div class="accordionContent">For my friends and family, the advent of Automation has been a mixed blessing. My brother lost his job in the mines during the recent downturn and returned to work in Perth. As an experienced Haul Truck operator, he would have easily found work when the industry picked up, however, due to AHS it took him substantially longer to find work than expected. Beyond this example, most other people I know have been positively impacted by automation in the mining industry. Having been a Navy employee for a number of years, I'm aware of a number of technicians that have been able to transition back into civilian jobs concurrent with emergent AV adoption. Automation provides opportunities to people traditionally skilled outside of the mining industry in the community. Mature-aged drivers are afforded opportunities as pit controllers in the city enabling them to return home each night instead of spending a large portion of their time away from family and friends. I strongly believe that automation will continue to have a primarily positive impact in the community within the mining industry and beyond.</div>
+        </div>
+      </div>
+    </div>
+    <!--Accordion 2 -->
+    <h3>Blockchain and Cryptocurrency</h3>
+    <div class="accordion" id="accordionParent1">
+      <div class="accordionCard">
+        <div class="cardHeader">
+            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseOneAcc2"><i class="fas fa-arrow-up"></i>What It Does</a>
+        </div>
+        <div id="collapseOneAcc2" class="collapse" data-parent="#accordionParent1">
+          <div class="accordionContent">Blockchain and cryptocurrency are some of the newest and most exciting developments that we’ve seen in the IT world. These technologies have the capacity to (and have already begun to) transform how data is stored, how currency is traded and how transactions are made online. The earliest and still most prominent cryptocurrency is Bitcoin, which has taken off in the last couple of years as the first true digital-only currency. Most cryptocurrencies, including Bitcoin are completely decentralised meaning that they’re not backed or secured by any financial institution or government. Due to cryptocurrency's storage being distributed and not being secured against any single physical item, it has experienced a juxtaposition of being seen both as a fad and also as the future of money (Hatzis 2019). As a result of this dual view of cryptocurrency, Bitcoin and cryptocurrency as a whole have suffered ongoing volatility and continues to ride waves, surging in both popularity and value for it then to suddenly come crashing down; often referred to as the ‘bubble bursting’. Bitcoin in particular has the tendency to rise sharply to new heights months later, seemingly for no clear reason beyonds peculation with ‘Bitcoin’s value almost entirely defined by perceptions’ (Partington 2021, para. 11).</div>
+          <div class="accordionContent">Whilst many critics lament this volatility and lack of inherent value (Boukhalfa 2019), many proponents continue to herald cryptocurrency as the future of money, pointing to cryptocurrency’s ability to allow funds to be transferred between two parties or purchases  to be made without having to go through a third party, such as a bank. This helps diminish fees, provides users with autonomy, discretion with payments and much faster processing times when making transfers (Reiff 2019).</div>
+          <div class="accordionContent">To enable cryptocurrency to become the first digital only currency, it has been built on and made possible thanks to blockchain. Fundamentally, the blockchain facilitates data storage using a series of 'blocks' that are linked together in a series. In the case of Bitcoin, each block contains the time, date, quantity, origin, and destination of the Bitcoin/s being transferred.</div>
+          <div class="accordionContent">Once data is recorded in a blockchain, it's extremely difficult to change it thanks to the use of cryptographic hashes, which can be compared to a fingerprint in that a hash is always unique and is used to identify the respective block.  Each block in a series contains its own hash as well as the hash of the previous block. This means that if any changes occur, the hash will also change, creating a knock-on effect that renders the following blocks invalid as the hash's no longer match.</div>
+          <div class="accordionContent">The security of blockchain is further increased by the peer-to-peer sharing, with copies of the blockchain ledger being sent to each user within the distributed network. If a block is tampered with, it will not pass the verification process which requires all block information within the network to reflect the original ledger. Any blocks that don't match are not authenticated and deemed invalid, making it virtually impossible for a block to be tampered with successfully.</div>
+          <div class="accordionContent">Owing to the inherent security mentioned above, the possible use cases and possibilities of blockchain reach far beyond cryptocurrency with many industries finding invaluable applications for the technology Zile & Strazdiņa 2018. One example is IBM’s Food Trust blockchain, developed to help trace and provide transparency of food products at every step of their journey from origin to destination. By utilising blockchain’s distributed ledger to store important information across the value chain, IBM has decreased the risk of information being tampered with, as well as enabled key stakeholders to accurately trace issues such as contamination back to the source and adequately mitigate the impact of such an event (IBM n.d).</div>
+          <div class="accordionContent">Due to these technologies still relatively in their infancy, these technologies are more exciting than ever, with much speculation as to how they will continue to evolve and converge with existing business practices.  With the rapid growth of blockchain and cryptocurrency comes far reaching implications, examined in greater detail below.</div>
+        </div>
+      </div>
+
+      <div class="accordionCard">
+        <div class="cardHeader">
+            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseTwoAcc2"><i class="fas fa-arrow-up"></i>The Likely Impact</a>
+        </div>
+        <div id="collapseTwoAcc2" class="collapse" data-parent="#accordionParent1">
+          <div class="accordionContent">With an ever-increasing number of use cases and applications, it's difficult to imagine a future in which most individuals and businesses won't be impacted by these two technologies. Beyond the very real possibility that cryptocurrency will entirely replace fiat money, which refers to government- issued currency, blockchain's fundamental data storage protocols make it an intrinsically secure means to manage sensitive data from medical records to functioning as a unique digital identifier for people online. The possibilities are endless, with employment growth seen in these fields rising by 300 percent between 2018 and 2019 for blockchain related jobs (Zhao 2018).</div>
+          <div class="accordionContent">Concurrent with the rising popularity of blockchain and cryptocurrency, so to the significant downsides that arise from the use technologies, especially the environmental ramifications that are associated with powering these technologies.</div>
+          <div class="accordionContent">The computational power and resources required to 'mine' new cryptocurrencies are astronomical, and the associated carbon footprint can only increase alongside upsurging cryptocurrency prices until such a time where renewable energy sources are mandated in the mining of Bitcoin and other cryptocurrencies. 'Mining' refers to the process of generating each individual currency, an exercise that requires exceptionally complex mathematical equations to be solved, possible only with the help of powerful computers that utilise top-of-the-line graphics cards. As the number of Bitcoin is finite, these equations become increasingly difficult to solve, demanding evermore resources and thus higher consumption of energy. Recently, the amount of energy consumed by users mining Bitcoin has exceeded the amount of energy used by entire nations, such as Argentina, Serbia, and Ireland (Aratani 2021). Whilst the energy to mine bitcoin can come from renewable sources, regulations and mandates are a long way from being implemented(de Vries 2020), a fact that has led to mining operations moving to countries where energy is cheaper, with four out of the five largest Bitcoin mining farms being found in China (Williams 2018). </div>
+          <div class="accordionContent">This energy consumption is expected to contribute to grave environmental projections in a time when many scientists fear a climate change tipping point is soon to be breached, if not already surpassed. (Climate Council 2018). </div>
+          <div class="accordionContent">Whilst the benefits of these technologies are numerous, the negatives continue to weigh heavily. With no solution yet devised for excessive energy use and no regulation on the horizon for the use of renewable energy, these technologies will continue to churn through resources at an unsustainable  rate, which has the potential to contribute to and affect everyone through climate change. </div>
+        </div>
+      </div>
+
+      <div class="accordionCard">
+        <div class="cardHeader">
+            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseThreeAcc2"><i class="fas fa-arrow-up"></i>How It Affects Me</a>
+        </div>
+        <div id="collapseThreeAcc2" class="collapse" data-parent="#accordionParent1">
+          <div class="accordionContent">Due to the ubiquity of these technologies, I stand to personally be affected by these in much the same way that others will be impacted. On the positive side, cryptocurrency has the potential to be the premier way that I use money and make transactions in the future. Whilst I don’t currently use any form of cryptocurrency, the appeal of a decentralised digital-only currency  does continue to grow. As more and more entities adopt cryptocurrency, it does seem to be an inevitability that I’ll be using cryptocurrency in the near future. It also seems to be a very real possibility that my entire identity could one day exist within the blockchain, an all-in-one solution to uniquely and securely identify myself digitally. Indirectly, blockchain will impact me through applications outside of cryptocurrency, as demonstrated by IBM's Food Trust. Although I most likely won’t ever see this blockchain working or fully feel its effects, I could easily still benefit from food items that I’ve purchased having passed through the Food Trust.</div>
+          <div class="accordionContent">Additionally, these technologies present very real opportunities for me to enter the IT field and find a career, with job growth in this sector growing exponentially in the last couple of years. Due to the high demand of engineers, careers in this field also tend to be very lucrative and whilst money is not the be-all and end-all, it is definitely something to consider when finding a career path after university.</div>
+          <div class="accordionContent">Most prominently, I, as well as my family and friends stand to be impacted by the environmental ramifications of crypto mining and its contributions towards climate change. With humanity on the precipice of passing the point of no return, the threat of climate change is arguably the most serious issue we'll face in our lifetimes, with studies finding that ‘Generation Z fear climate change more than anything else’ (Barbiroglio 2019, para 1). </div>
+          <div class="accordionContent">Whilst blockchain and cryptocurrency are not wholly responsible for climate change, their rising popularity demonstrates humanity’s disregard for the wealth of evidence concerning  the threat of climate change in favour of  exciting and lucrative technology, with the environmental impacts seemingly an afterthought. This issue paints a troubling picture for the future of these technologies and their inevitabile growth. For blockchain and cryptocurrency to continue to grow and become a part of our lives, it will require more and more resources to sustain itself, which will only make the situation worse if a solution cannot be found (Rogers 2017).</div>
+          <div class="accordionContent">While there are both positives and negatives associated with cryptocurrency and blockchain, both of these technologies have an aura of the future attached to them. As with any emergent technology, there will be numerous challenges to overcome, but the potential for these technologies to usher in a new way of life is unquestionable and it is going to be exciting to witness the impacts that these will have to our lives.</div>
+        </div>
+      </div>
+    </div>
+
+    <!--Accordion 3 -->
+    <h3>Natural Language Processing and Chatterbots</h3>
+    <div class="accordion" id="accordionParent3">
+      <div class="accordionCard">
+        <div class="cardHeader">
+            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseOneAcc3"><i class="fas fa-arrow-up"></i>What It Does</a>
+        </div>
+        <div id="collapseOneAcc3" class="collapse" data-parent="#accordionParent3">
+          <div class="accordionContent"></div>
+          <div class="accordionContent"></div>
+          <div class="accordionContent"></div>
+          <div class="accordionContent"></div>
+        </div>
+      </div>
+
+    <div class="accordionCard">
+      <div class="cardHeader">
+          <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseTwoAcc3"><i class="fas fa-arrow-up"></i>The Likely Impact</a>
+      </div>
+      <div id="collapseTwoAcc3" class="collapse" data-parent="#accordionParent3">
+        <div class="accordionContent"></div>
+        <div class="accordionContent"></div>
+        <div class="accordionContent"></div>
+        <div class="accordionContent"></div>
+      </div>
+    </div>
+
+  <div class="accordionCard">
+    <div class="cardHeader">
+        <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseThreeAcc3"><i class="fas fa-arrow-up"></i>How It Affects Me</a>
+    </div>
+    <div id="collapseThreeAcc3" class="collapse" data-parent="#accordionParent3">
+      <div class="accordionContent"></div>
+      <div class="accordionContent"></div>
+      <div class="accordionContent"></div>
+      <div class="accordionContent"></div>
+    </div>
+  </div>
+</div>
+
+    <!--Accordion 4 -->
+    <h3>Raspberry Pi’s</h3>
+    <div class="accordion" id="accordionParent4">
+      <div class="accordionCard">
+        <div class="cardHeader">
+            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseOneAcc4"><i class="fas fa-arrow-up"></i>What It Does</a>
+        </div>
+        <div id="collapseOneAcc4" class="collapse" data-parent="#accordionParent4">
+          <div class="accordionContent"></div>
+          <div class="accordionContent"></div>
+          <div class="accordionContent"></div>
+          <div class="accordionContent"></div>
+        </div>
+      </div>
+
+    <div class="accordionCard">
+      <div class="cardHeader">
+          <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseTwoAcc4"><i class="fas fa-arrow-up"></i>The Likely Impact</a>
+      </div>
+      <div id="collapseTwoAcc4" class="collapse" data-parent="#accordionParent4">
+        <div class="accordionContent"></div>
+        <div class="accordionContent"></div>
+        <div class="accordionContent"></div>
+        <div class="accordionContent"></div>
+      </div>
+    </div>
+
+  <div class="accordionCard">
+    <div class="cardHeader">
+        <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseThreeAcc4"><i class="fas fa-arrow-up"></i>How It Affects Me</a>
+    </div>
+    <div id="collapseThreeAcc4" class="collapse" data-parent="#accordionParent4">
+      <div class="accordionContent"></div>
+      <div class="accordionContent"></div>
+      <div class="accordionContent"></div>
+      <div class="accordionContent"></div>
+    </div>
+  </div>
+  </div>
+
+    <div class="bottomnav">
     <a href="references.html" class="active">&mdash; Reference Library &nbsp;</a>
     <a href="home.html" class="fas fa-circle"></a>
     <a href="https://github.com/blakey83/Intro-to-IT---assignment-2" class="fab fa-github" target="_blank" rel="noopener noreferrer"> &nbsp;</a>
   </div>
-  </div>
+</div>
 </body>
 </html>
