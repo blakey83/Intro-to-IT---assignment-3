@@ -2,7 +2,7 @@ $(document).ready(function () {
        $("#getInfo").click(function () {
            $('#Details').on('show.bs.modal');
            $(".modal-title").text("Daniel Blake");
-           $(".mainText").text("I’m Daniel Blake (s3910924) of UMI. I’m from an English background but moved to Australia at a young age. I love AFL and the west coast Eagles. I also spend a lot of time camping, fishing, and at the beach. My professional background is in Operational Technology and Vehicle Automation specific to the resources sector. My interest in IT is to expand my knowledge and career opportunities in mining or other industrial technology fields. Go TBD!!!");
+           $(".mainText").text("I’m Daniel Blake (s3910924) of UMI. I’m from an English background but moved to Australia at a young age. I love AFL and the west coast Eagles. I also spend a lot of time camping, fishing, and at the beach. My professional background is in Operational Technology and Vehicle Automation specific to the resources sector. My interest in IT is to expand my knowledge and career opportunities in mining or other industrial technology fields. Go UMI!!!");
            $(".mainTextBanner1").text("Myers-Briggs");
            $(".mainText1").text("My Myers-Briggs results show I’m an INTJ-A, an Assertive Architect. This means, for me, that I can use rational thought and ingenuity to bring a project to fruition.");
            $(".mainTextBanner2").text("Education Planner Test");
@@ -11,6 +11,10 @@ $(document).ready(function () {
            $(".mainText3").text("The third test that I found online was to assess my productivity, it was conducted at hbr.org/2018/08/assessment-how-productive-are-you. The results show that I am 95% productive.");
            $(".mainTextBanner4").text("Discussion");
            $(".mainText4").text("In a group environment, being a productive member is incredibly important to me as demonstrated by by 95% productive result. Being able to be relied on by my team mates is something that I would pride myself on and I hope that this level of productivity is emulated by my team. The key to success for me would be by effectively organising communications and assigning tasks efficiently and productively, through my rational thought and ingenuity, which would provide an easier road to success. When forming a team, it’s best to find people who are also organised and productive. I think trying to maintain a high level of organisation with someone who works in an ad-hoc manner would be frustrating, and would lead to friction within the group.");
+           $(".mainTextBanner5").text("Group Reflection");
+           $(".mainText5").text("");
+           $(".mainText6").text("");
+           $(".mainText7").text("");
 
            var github = document.getElementById('github');
            github.href = "https://github.com/blakey83"
@@ -39,6 +43,10 @@ $(document).ready(function () {
           $(".mainText3").text("My third test was the Big 5 Personality test that indicated that I am primarily good natured, courteous and supportive but I can also be shy and tend to worry about things.");
           $(".mainTextBanner4").text("Discussion");
           $(".mainText4").text("I believe that these test results put me in a really good position for working within a team! My strengths will mesh really well within a team as I'm always respectful and open to any ideas that my teammates may have! My results show I’m passionate, generous and dedicated which I will use to ensure that I fit in and work well within the team.");
+          $(".mainTextBanner5").text("Group Reflection");
+          $(".mainText5").text("Coming into this assignment, I was a little apprehensive of group work due to the horror stories you hear of work falling solely on one or two people in the group. This team, however, has surpassed my expectations, and I am grateful that I’ve had the opportunity to work with them! Primarily, what went well for me was the initiative and ownership that my teammates took when deciding what work was to be done and then completing said work. Knowing that I could rely on any of my teammates wholeheartedly to complete their assigned work or be there to help when needed was a great assurance of working in a team.");
+          $(".mainText6").text("Going forward, I believe that the best thing that we could improve on is setting deadlines throughout the assignment so that we have key markers of the work that we have already completed and clear progression, instead of having just bits and pieces of the assignment completed in no clear order or timeframe, bar the assignment deadline.");
+          $(".mainText7").text("What surprised me most about working in a team and this assignment was the ebb and flow of the work that we needed to complete. As the work was filtered throughout the team, it felt at times that we had a mountain of work in front of us. Other times, it seemed we had ample time and hardly any tasks to work through, only to be blindsided by the mountain returning. Through working in this group, I have learned that it’s okay to ask for help when needed and take a step back; to not burden myself with all the work that needs to be done and instead rely on and trust my teammates to collaboratively complete the required work.");
 
           var a = document.getElementById('github');
           a.href = "https://github.com/drinkwatern"
@@ -66,6 +74,10 @@ $(document).ready(function () {
           $(".mainTextBanner3").text("5 Voices");
           $(".mainText3").text("As a Pioneer - Connector, I love to dream big and share those ideas with people. I find myself to be multi-talented, very resourceful and love challenges. I do challenge the status quo which can be confronting to some people and may be intimidating. I believe I can be a great addition to an organisation who gives me autonomy and believes in me, my capabilities and my vision. ");
           $(".mainTextBanner4").text(""); //Intentionaly left blank so that this dosne't autopopulate with other data.
+          $(".mainTextBanner5").text("Group Reflection");
+          $(".mainText5").text("");
+          $(".mainText6").text("");
+          $(".mainText7").text("");
 
           var a = document.getElementById('github');
           a.href = "https://github.com/aabbayy"
@@ -78,7 +90,6 @@ $(document).ready(function () {
           mail.title = "s3794613@student.rmit.edu.au"
 
           $('[data-toggle="tooltip"]').tooltip();
-
           })
       });
 $(document).ready(function () {
@@ -94,6 +105,10 @@ $(document).ready(function () {
           $(".mainText3").text("Phlegmatic");
           $(".mainTextBanner4").text("Discussion");
           $(".mainText4").text("Together, these results seem to indicate I am someone who stops to think before making decisions. I am also quite introverted and not particularly social. It also indicates that I am someone who learns more through seeing something be done rather than being instructed. They help to point that in a group, I am better at being a decision maker because I will carefully consider all options before coming to a conclusion. But it also says that I will not likely speak up very much due to my introverted nature. This should be taken into account when forming a team by considering what the other members advantages and disadvantages within their personality are, and using them to decide what roles within the group suit each member the best.");
+          $(".mainTextBanner5").text("Group Reflection");
+          $(".mainText5").text("");
+          $(".mainText6").text("");
+          $(".mainText7").text("");
 
           var a = document.getElementById('github');
           a.href = "https://github.com/matdwyer94"
@@ -103,10 +118,9 @@ $(document).ready(function () {
 
           var mail = document.getElementById('mail');
           mail.href = "mailto:s3807459@student.rmit.edu.au"
-          mail.title = "sS3807459@student.rmit.edu.au"
+          mail.title = "s3807459@student.rmit.edu.au"
 
           $('[data-toggle="tooltip"]').tooltip();
-
           })
       });
 
@@ -122,6 +136,10 @@ $(document).ready(function () {
           $(".mainTextBanner3").text("DISC");
           $(".mainText3").text("Type S - My results indicate a strong egalitarian inclination and a desire to cultivate a supportive, inclusive environment for teammates to flourish in. Type S individuals are dependable, reliable, strong communicators who utilise compassion and diplomacy in adversity and prefer to diffuse conflict with patience and understanding. They’re natural collaborators and strive for the overall success of the team rather than advancing their individual endeavours. These types can be indecisive and over-accommodating, often to their own and the team’s detriment, which can ultimately have the opposite effect of their intentions if not kept in check. Being extremely empathetic people, they often gloss over problems and avoid calling out the inadequacies of their colleagues in an attempt to keep the peace, leading to setbacks down the line.");
           $(".mainTextBanner4").text(""); //Intentionaly left blank so that this dosne't autopopulate with other data.
+          $(".mainTextBanner5").text("Group Reflection");
+          $(".mainText5").text("Being very familiar with team-based environments, I was impressed by how quickly the team adopted the organisational tools and software we decided to use and settled into the workflows. At no point did an individual team member need prompting to complete their assigned tasks–every member self-started and completed jobs efficiently. I feel that UMI’s strengths are strong communication and organisation skills and a consistently positive work ethic. Each member’s disposition towards the tasks was motivated and proactive, and most of the team were willing to help others manage their load alongside fluctuating schedules. Each meeting felt well-organised and productive, with pre-written agendas and minutes recorded during each session.");
+          $(".mainText6").text("Areas for improvement are to take steps to mitigate the double handling of tasks moving forward. Part of my role within the group was to quality control all written content, website design, functionality, and UX. Despite ordinarily being averse to double handling of work, I found that it was unavoidable in this context to achieve a desirable outcome. Occasionally, I was required to re-write entire reports to ensure they passed spelling and grammar checks, were free of unintentional plagiarism and met word count and rubric requirements. Additionally, I needed to ensure the content was palatable for readers of all technical abilities. In the future, I intend to provide my colleagues with the tools and resources necessary to meet these prerequisites prior to submission to QC. This will reduce the time spent reworking content and free up the quality controller's time for more technical tasks. In saying this, I should mention that in cases where the writing needed reworking, the technical understanding of the writer was considerably greater than my own comprehension and, therefore, the technical level of the content was not something I would have been anywhere near able to produce. ");
+          $(".mainText7").text("Something that surprised me was the consistency in participation from all team members. In my experience, aligning multiple schedules for regular meetings can be like herding cats. Still, I found that each team member went above and beyond to attend and contribute to every meeting despite some very hectic schedules and unexpected hindrances. Understanding that the amalgamation of each individual’s strengths is key to achieving a nuanced and robust outcome, I learned that distilling and applying those strengths isn’t always as simple as one individual ultimately owning any given task. This experience has demonstrated that a more granular approach to collaboration is sometimes required to achieve the highest quality result with two or more members working synchronously on some tasks.");
 
           var a = document.getElementById('github');
           a.href = "https://github.com/s3910930"
@@ -151,6 +169,10 @@ $(document).ready(function () {
           $(".mainText3").text("The Big Five Personality Test measures five major dimensions of personality: Openness, Conscientiousness, Extraversion, Agreeableness and Neuroticism (OCEAN). According to results, I possess an accent towards Openness and Agreeableness while Neuroticism scored lowest. Many aspects of this summation mirror certain characteristics of the Advocate personality type, such as a tendency towards helping others, collaboration, emotional intuition, and an aversion towards following traditional paths.");
           $(".mainTextBanner4").text("Discussion");
           $(".mainText4").text("The depths of these varying results indicates that people of various personality types share certain characteristics that express themselves in a variety of ways. For example, the concept of ‘leadership’ does not necessarily require an extraverted personality, but rather an observance of a particular leadership style that is comfortable and productive for a team as a whole. These test results suggest I am strongly capable of collaboration and productive in environments aimed towards helping others, benefiting greatly through physical and social experiences. I aim to always be respectful, positive, committed and inclusive, as I typically learn more through active discussion and debate about ideas and solutions.");
+          $(".mainTextBanner5").text("Group Reflection");
+          $(".mainText5").text("");
+          $(".mainText6").text("");
+          $(".mainText7").text("");
 
           var a = document.getElementById('github');
           a.href = "https://github.com/harrisontang"
@@ -190,5 +212,50 @@ $(document).ready(function(){
   $(".cardHeader .btn").click(function(){
     $(".cardHeader").not($(this).parents()).removeClass("highlight");
     $(this).parents(".cardHeader").toggleClass("highlight");
+  });
+});
+
+$(document).ready(function(){
+  $("#meeting1").popover({
+  html: true, content: function () {
+      return $('#popover-content1').html();
+      trigger: 'focus'
+  }
+  });
+  $("#meeting2").popover({
+  html: true, content: function () {
+      return $('#popover-content2').html();
+      trigger: 'focus'
+  }
+  });
+  $("#meeting3").popover({
+  html: true, content: function () {
+      return $('#popover-content3').html();
+      trigger: 'focus'
+  }
+  });
+  $("#meeting4").popover({
+  html: true, content: function () {
+      return $('#popover-content4').html();
+      trigger: 'focus'
+  }
+  });
+  $("#meeting5").popover({
+  html: true, content: function () {
+      return $('#popover-content5').html();
+      trigger: 'focus'
+  }
+  });
+  $("#meeting6").popover({
+  html: true, content: function () {
+      return $('#popover-content6').html();
+      trigger: 'focus'
+  }
+  });
+  $("#meeting7").popover({
+  html: true, content: function () {
+      return $('#popover-content7').html();
+      trigger: 'focus'
+  }
   });
 });
