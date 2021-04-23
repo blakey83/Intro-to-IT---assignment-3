@@ -94,6 +94,10 @@ li{
   margin:0px;
 }
 
+video{
+  margin-left:25px;
+}
+
 .bottomnav {
   overflow: hidden;
   position: absolute;
@@ -135,15 +139,9 @@ li{
 
 .container {
   text-align: center;
-  /*margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 50px;
-  min-width: 1250px;*/
   margin:auto;
   min-width: 100%;
 }
-
-
 
 .container2 {
   margin-top: 20px;
@@ -151,43 +149,6 @@ li{
   margin-right: 20px;
   margin-left: 65px;
 
-}
-
-.header {
-   padding: 30px;
-   text-align: center;
-   font-size: 15px;
- }
-
-.h5Us{
-  font-size: 35px;
-  text-align: left;
-  margin-top: 50px;
-  margin-left: 32px;
-  font-weight: 500;
-}
-
-.h7{
-  margin-left: 10%;
-}
-
-.mainTextTech{
-  font-size: 16px;
-}
-
-.mainTextData{
-  font-size: 16px;
-  text-align: left;
-  margin:auto;
-  margin-left: 50px;
-  margin-top: 15px;
-}
-
-.mainTextProject{
-  font-size: 16px;
-  text-align: left;
-  margin:auto;
-  margin-left: 50px;
 }
 
 .data1H3{
@@ -216,6 +177,87 @@ li{
   text-align: left;
   padding:0px;
   color:#363030;
+}
+
+.dataList{
+  text-align: left;
+  margin-left: 40px;
+  padding-top: 5px;
+}
+
+.figures{
+  margin-left: 50px;
+}
+
+.header {
+   padding: 30px;
+   text-align: center;
+   font-size: 15px;
+ }
+
+.h5Us{
+  font-size: 35px;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 32px;
+  font-weight: 500;
+}
+
+.h7{
+  margin-left: 10%;
+}
+
+.imageRow{
+  padding-bottom: 30px;
+  padding-right: 10px;
+  width:25%;
+}
+
+.imageRow:hover{
+  opacity: 50%;
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.imageRowBoard{
+  float: left;
+  margin-left: 128px;
+  width:25%;
+}
+
+.imageRowBoard:hover{
+  opacity: 50%;
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.mainTextTech{
+  font-size: 16px;
+}
+
+.mainTextData{
+  font-size: 16px;
+  text-align: left;
+  margin:auto;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.mainTextProject{
+  font-size: 16px;
+  text-align: left;
+  margin:auto;
+  margin-left: 50px;
+}
+
+.matrix{
+  margin-top:20px;
+}
+
+.modal-title2{
+  font-size: 19px;
+  margin:10px 10px 0px 0px;
+  color: #000;
 }
 
 .meetingImg{
@@ -275,30 +317,6 @@ li{
   width:100%;
 }
 
-.imageRow{
-  padding-bottom: 30px;
-  padding-right: 10px;
-  width:25%;
-}
-
-.imageRow:hover{
-  opacity: 50%;
-  transition:0.5s;
-  cursor: pointer;
-}
-
-.imageRowBoard{
-  float: left;
-  margin-left: 128px;
-  width:25%;
-}
-
-.imageRowBoard:hover{
-  opacity: 50%;
-  transition:0.5s;
-  cursor: pointer;
-}
-
 .reportNames{
   font-size: 12px;
   color: #616161;
@@ -312,8 +330,20 @@ li{
   margin-bottom: 10px;
   margin-left: 190px;
   letter-spacing: 1.5px;
-  font-size: 35px;
+  font-size: 18px;
   font-weight: 700;
+  margin-right: 30px;
+  color:#203c14;
+}
+
+.tagline1
+{
+  text-align:left;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  letter-spacing: 1.5px;
+  font-size: 16px;
   margin-right: 30px;
   color: #333333;
 }
@@ -337,6 +367,9 @@ li{
   color: #e84934;
 }
 
+.usH2{
+  font-weight: bold;
+}
 
 
 .usblurb {
@@ -457,12 +490,13 @@ margin: 0px;
   font-size: 16px;
 }
 
-#tooltipList{
-  padding-bottom: 3px;
-  border-bottom: 1px dashed #e84934;
-}
 
 .tooltipMenu li a:hover{
 text-decoration: underline;
 opacity: 100;
+}
+
+#tooltipList{
+  padding-bottom: 3px;
+  border-bottom: 1px dashed #e84934;
 }

@@ -2,6 +2,7 @@ $(document).ready(function () {
        $("#getInfo").click(function () {
            $('#Details').on('show.bs.modal');
            $(".modal-title").text("Daniel Blake");
+           $(".modal-title2").text(""); //Intentionaly left blank so that this doesn't autopopulate with other data.
            $(".mainText").text("I’m Daniel Blake (s3910924) of UMI. I’m from an English background but moved to Australia at a young age. I love AFL and the west coast Eagles. I also spend a lot of time camping, fishing, and at the beach. My professional background is in Operational Technology and Vehicle Automation specific to the resources sector. My interest in IT is to expand my knowledge and career opportunities in mining or other industrial technology fields. Go UMI!!!");
            $(".mainTextBanner1").text("Myers-Briggs");
            $(".mainText1").text("My Myers-Briggs results show I’m an INTJ-A, an Assertive Architect. This means, for me, that I can use rational thought and ingenuity to bring a project to fruition.");
@@ -27,7 +28,6 @@ $(document).ready(function () {
            mail.href = "mailto:s3910924@student.rmit.edu.au"
            mail.title = "s3910924@student.rmit.edu.au"
 
-           $('[data-toggle="tooltip"]').tooltip();
           })
        });
 
@@ -35,6 +35,7 @@ $(document).ready(function () {
         $("#getInfo1").click(function () {
           $('#Details').on('show.bs.modal');
           $(".modal-title").text("Nicholas Drinkwater");
+          $(".modal-title2").text(""); //Intentionaly left blank so that this doesn't autopopulate with other data.
           $(".mainText").text("Hey! I’m Nick Drinkwater (s3508178) of UMI. I was born in Sydney but grew up in Melbourne. Whilst I don’t have any formal IT experience, I actually previously started this degree back in 2015. After completing half a year, I left to go traveling, spending 2 years living in Edinburgh, Scotland. With Coronavirus and being unable to travel, I decided to use this time to return and finish my degree! I love traveling, film, and baseball. My interests in IT include programming, building IT systems, and hardware. I hope to learn the necessary skills and knowledge to help me enter the IT industry in my career, as well as exposure to inspiring topics and fields of IT that I haven’t seen or encountered before.");
           $(".mainTextBanner1").text("Myers-Briggs");
           $(".mainText1").text("My Myers-Briggs test indicated that I’m an INFP-T, which is a Turbulent Mediator. This means that I am thoughtful, open-minded and empathetic but can also overly self-critical and idealistic.");
@@ -60,7 +61,7 @@ $(document).ready(function () {
           mail.href = "mailto:s3508178@student.rmit.edu.au"
           mail.title = "s3508178@student.rmit.edu.au"
 
-          $('[data-toggle="tooltip"]').tooltip();
+
           })
       });
 
@@ -68,6 +69,7 @@ $(document).ready(function () {
         $("#getInfo2").click(function () {
           $('#Details').on('show.bs.modal');
           $(".modal-title").text("Abby Durbridge");
+          $(".modal-title2").text(""); //Intentionaly left blank so that this doesn't autopopulate with other data.
           $(".mainText").text("I’m Abby Durbridge (s3794613) of UMI– a Melbourne resident living in the heart of Southbank and loving every moment.  My passions lie in creative arts and languages and use most of my spare time growing my skills in each. Historically, I’ve worked with an Engineering firm before transitioning into a SaaS company within the Childcare Industry. A hefty lockdown saw me trying to develop new skills and interests and evidently picking up another degree. My interest in IT hasn’t been at the forefront of my life but rather a natural necessity, and it wasn’t until I began to think of developing my own software or being able to work remotely for any company that I pursued IT professionally. ");
           $(".mainTextBanner1").text("Myers-Briggs");
           $(".mainText1").text("As an ENFP-A (Extraverted, Intuitive, Feeling, Perceiving), I bring a warm and inviting energy to any team through my charisma and abundance of people skills. I have the ability to adapt seamlessly to change-making me a superb choice for roles within dynamic, stimulating environments. ");
@@ -77,10 +79,10 @@ $(document).ready(function () {
           $(".mainText3").text("As a Pioneer - Connector, I love to dream big and share those ideas with people. I find myself to be multi-talented, very resourceful and love challenges. I do challenge the status quo which can be confronting to some people and may be intimidating. I believe I can be a great addition to an organisation who gives me autonomy and believes in me, my capabilities and my vision. ");
           $(".mainTextBanner4").text(""); //Intentionaly left blank so that this dosne't autopopulate with other data.
           $(".mainTextBanner5").text("Group Reflection");
-          $(".mainText5").text("");
-          $(".mainText6").text("");
-          $(".mainText7").text("");
-          $(".mainText8").text("");
+          $(".mainText5").text("At the onset of forming the team, I held a pessimistic outlook on group assignments due to previous negative experiences. At work, my colleagues are often motivated by their monetary remuneration or demonstrating their abilities for professional development opportunities; this has not been my experience in the tertiary education space. During UMI’s first meeting, each member committed to striving for the best grade possible - a high distinction. This commitment reassured me and set the tone and direction for the team moving forward.");
+          $(".mainText6").text("There was a frictionless way of operating in our team - each member had a robust skillset that was identified and utilised. Additionally, our strong communication skills created a safe environment for free speech and exploring one’s ideas and feedback. While we excel in communication, we still have room for improvements in our organisation and project management skills. We used Trello for our team management which helped immensely; however, I believe there are still more efficient ways of working to prevent double-handling and team members waiting on others to complete work before they can attend to their task.");
+          $(".mainText7").text("I was surprised at my team’s almost instant connection and open-mindedness towards uptaking any of my suggestions regarding collaboration tools, project ideas and the IT professional to interview. I felt very supported and inspired to give my utmost best to the team. During our team meetings, I recognised each member’s work they preferred to take on and helped spur them to take the task on. Through UMI, I have learned that setting a uniform expectation for the team before beginning the tasks helps with team morale and accountability.");
+          $(".mainText8").text("");//Intentionaly left blank so that this dosne't autopopulate with other data.
 
           var a = document.getElementById('github');
           a.href = "https://github.com/aabbayy"
@@ -92,13 +94,13 @@ $(document).ready(function () {
           mail.href = "mailto:s3794613@student.rmit.edu.au"
           mail.title = "s3794613@student.rmit.edu.au"
 
-          $('[data-toggle="tooltip"]').tooltip();
           })
       });
 $(document).ready(function () {
         $("#getInfo3").click(function () {
           $('#Details').on('show.bs.modal');
           $(".modal-title").text("Mathew Dwyer");
+          $(".modal-title2").text(""); //Intentionaly left blank so that this doesn't autopopulate with other data.
           $(".mainText").text("My name is Mathew Dwyer (s3807459) of UMI. I’m 27 years old and based in Newcastle, NSW. English is my primary language, however I’m in the process of learning German. Previously, I’ve completed 3 semesters of a Bachelor of Communications at University of Newcastle, as well as partially completed a video game course through TAFE. I love playing with electronics and am currently expanding my skills with 3D printing, 3D modelling and CAD to facilitate the printing of miniatures and terrain for my DnD games. My experience in IT is specific to web development and electronics, having played an integral role in the development and ongoing maintenance of the website of a retail store I worked for. Additionally, I’ve had involvement in video game development and have created several small games for various competitions. Software development, automation and cybersecurity are all areas I’d like to explore during the course of my education and career.");
           $(".mainTextBanner1").text("Myers-Briggs");
           $(".mainText1").text("ISTP (Introversion, Sensing, Thinking, Perceiving)");
@@ -109,10 +111,10 @@ $(document).ready(function () {
           $(".mainTextBanner4").text("Discussion");
           $(".mainText4").text("Together, these results seem to indicate I am someone who stops to think before making decisions. I am also quite introverted and not particularly social. It also indicates that I am someone who learns more through seeing something be done rather than being instructed. They help to point that in a group, I am better at being a decision maker because I will carefully consider all options before coming to a conclusion. But it also says that I will not likely speak up very much due to my introverted nature. This should be taken into account when forming a team by considering what the other members advantages and disadvantages within their personality are, and using them to decide what roles within the group suit each member the best.");
           $(".mainTextBanner5").text("Group Reflection");
-          $(".mainText5").text("");
-          $(".mainText6").text("");
-          $(".mainText7").text("");
-          $(".mainText8").text("");
+          $(".mainText5").text("Having no recent experience with group work, I entered the assessment with a measure of trepidation around being accountable to and relying on others. Overall, I believe our group has worked quite well together, with little to no issues. Everyone takes responsibility for the assigned tasks, and each individual was willing to assist others when needed. The team's discussions were healthy and constructive regarding ideas and perspectives, and the group consequently determining the best course of action as a whole.");
+          $(".mainText6").text("If there is an area for improvement, I would say that multiple people unwittingly actioning the same task should be avoided to maintain optimal efficiency");
+          $(".mainText7").text("It was astonishing how well the group cooperated. No one was burdened with an excessive workload or pressured to take on tasks they weren't comfortable carrying out. Each individual volunteered to do roughly equivalent amounts of work, and no team members needed prompting to action tasks on their to-do list.");
+          $(".mainText8").text("If I have learned anything about teamwork through this experience, it's that group work can be a pleasant and flourishing experience when colleagues prioritise mutual understanding and communication with a unified goal in mind.");
 
           var a = document.getElementById('github');
           a.href = "https://github.com/matdwyer94"
@@ -124,7 +126,6 @@ $(document).ready(function () {
           mail.href = "mailto:s3807459@student.rmit.edu.au"
           mail.title = "s3807459@student.rmit.edu.au"
 
-          $('[data-toggle="tooltip"]').tooltip();
           })
       });
 
@@ -132,6 +133,7 @@ $(document).ready(function () {
         $("#getInfo4").click(function () {
           $('#Details').on('show.bs.modal');
           $(".modal-title").text("Erin Paton");
+          $(".modal-title2").text(""); //Intentionaly left blank so that this doesn't autopopulate with other data.
           $(".mainText").text("I’m Erin (s3910930) of UMI. Originally from Sydney, I relocated to Byron Bay for a change of pace and to get closer to nature—most of my weekends are now spent hiking, exploring waterfalls, or at the beach. Currently, I’m fluent in English but I have a passion for French culture and intend to study the language up to C-level (only after I’ve knocked over a few programming languages!). My experience with IT is specific to marketing technology, and the software used to implement it. Art, Design, Psychology, Health & Wellness, and Sexual Education are all areas that are important to me and while I don’t have plans to further my education in these fields, the possibility of exploring their convergence with emerging technologies is something that excites me. I’d love to play a role in increasing the accessibility and interoperability of these spaces in some way throughout the course of my career.");
           $(".mainTextBanner1").text("Myers-Briggs");
           $(".mainText1").text("INFP - My results indicate introversion, an intuitive information-gathering style, emotion-based decision making, and a preference for structure and organisation in my environment. Dubbed “The Advocate”, 16 Personalities describes individuals of this combination as creative problem-solvers with the ability to accurately read people’s true feelings through compassion and keen intuition. Advocates are inspiring communicators who speak and write with a conviction that can be quite persuasive. They prefer to succeed to the benefit of those around them, never to the detriment of others. Some weaknesses of the Advocate profile are a sensitivity to criticism, difficulty opening up and asking for help, and a sometimes debilitating perfectionism.");
@@ -156,8 +158,6 @@ $(document).ready(function () {
           mail.href = "mailto:s3910930@student.rmit.edu.au"
           mail.title = "s3910930@student.rmit.edu.au"
 
-          $('[data-toggle="tooltip"]').tooltip();
-
           })
       });
 
@@ -165,6 +165,7 @@ $(document).ready(function () {
         $("#getInfo5").click(function () {
           $('#Details').on('show.bs.modal');
           $(".modal-title").text("Harrison Tang");
+          $(".modal-title2").text(""); //Intentionaly left blank so that this doesn't autopopulate with other data.
           $(".mainText").text("My name is Harrison Tang, s3908223 of Team UMI. Born to migrant Chinese parents, I am a second-generation Australian and denizen of Brisbane Town/Meanjin. Whilst not possessing an extensive background in IT, I grew up in the 1990’s and 2000’s playing video games and exploring the internet. Eventually, technologies would play a crucial part in my life in staying connected with friends and family, discovering art and music, educating and expressing myself, and seeking new employment and career opportunities. Recent work performing administration and data collection for an infrastructure company prompted an exploration into avenues in programming, cloud services, and app and web design leading to pursuing a formal education in IT. Currently, I play guitar as part of the ‘strings’ section in a ten-member pop-punk cover band/orchestra and occasionally travel interstate to perform.");
           $(".mainTextBanner1").text("Myers-Briggs");
           $(".mainText1").text("My scores on this test returned an INFJ result. Referred to as ‘The Advocate’, ‘16Personalities.com’ describe this personality type as principled in nature, empathetically sensitive and altruistically driven with a strong sense of egalitarianism. However, this idealism can evoke perfectionist and reserved tendencies in Advocates, exacerbated by a lack of self-care and often leading to burnout.");
@@ -179,7 +180,7 @@ $(document).ready(function () {
           $(".mainText6").text("My struggle with understanding the applications used for managing this project was alleviated by the excellent guidance and open nature of communications between team members. Now I completely embrace the use of project management tools such as Microsoft Teams and Trello, as they provide an overview of project progression and immediate tasks.");
           $(".mainText7").text("To improve, harder deadlines for each necessary stage of the project would smoothen out the process, allowing a greater overview of assignment progress and ability to assist and collaborate across the different tasks. I was surprised to learn of the vast IT background possessed by my illustrious teammates and the depths of knowledge they were able to draw upon.");
           $(".mainText8").text(""); //Intentionaly left blank so that this doesn't autopopulate with other data.
-          
+
           var a = document.getElementById('github');
           a.href = "https://github.com/harrisontang"
 
@@ -190,25 +191,31 @@ $(document).ready(function () {
           mail.href = "mailto:s3908223@student.rmit.edu.au"
           mail.title = "s3908223@student.rmit.edu.au"
 
-          $('[data-toggle="tooltip"]').tooltip();
           })
       });
 
 $(document).ready(function () {
-        $("#getInfo6").click(function () {
-          $('#Details').on('show.bs.modal');
-          $(".modal-title").text("");
-          $(".mainText").text("");
-          $(".mainTextBanner1").text("");
-          $(".mainText1").text("");
-          $(".mainTextBanner2").text("");
-          $(".mainText2").text("");
-          $(".mainTextBanner3").text("");
-          $(".mainText3").text("");
-          $(".mainTextBanner4").text("");
-          $(".mainText4").text("");
-          })
-      });
+  $("#getInfo6").click(function () {
+            $('#Details').on('show.bs.modal');
+            $(".modal-title").text("");
+            $(".modal-title2").text(""); //Intentionaly left blank so that this doesn't autopopulate with other data.
+            $(".mainText").text("");
+            $(".mainTextBanner1").text("");
+            $(".mainText1").text("");
+            $(".mainTextBanner2").text("Learning Styles Test ");
+            $(".mainText2").text("");            $
+            $(".mainTextBanner3").text("Big Five Personality Test");
+            $(".mainText3").text("");
+            $(".mainTextBanner4").text("");
+            $(".mainText4").text("T");
+            $(".mainTextBanner5").text("");
+            $(".mainText5").text("");
+            $(".mainText6").text("");
+            $(".mainText7").text("");
+            $(".mainText8").text(""); //Intentionaly left blank so that this doesn't autopopulate with other data.
+})
+});
+
 
 $(document).ready(function(){
   $(".collapse.show").each(function(){
