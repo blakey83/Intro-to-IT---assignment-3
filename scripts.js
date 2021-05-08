@@ -3,7 +3,7 @@ $(document).ready(function () {
            $('#Details').on('show.bs.modal');
            $(".modal-title").text("Daniel Blake");
            $(".modal-title2").text(""); //Intentionaly left blank so that this doesn't autopopulate with other data.
-           $(".mainText").text("I’m Daniel Blake (s3910924) of UMI. I’m from an English background but moved to Australia at a young age. I love AFL and the west coast Eagles. I also spend a lot of time camping, fishing, and at the beach. My professional background is in Operational Technology and Vehicle Automation specific to the resources sector. My interest in IT is to expand my knowledge and career opportunities in mining or other industrial technology fields. Go UMI!!!");
+           $(".mainText").text("I am Daniel Blake (s3910924) of UMI. I’m from an English background but moved to Australia at a young age. I love AFL and the west coast Eagles. I also spend a lot of time camping, fishing, and at the beach. My professional background is in Operational Technology and Vehicle Automation specific to the resources sector. My interest in IT is to expand my knowledge and career opportunities in mining or other industrial technology fields. Go UMI!!!");
            $(".mainTextBanner1").text("Myers-Briggs");
            $(".mainText1").text("My Myers-Briggs results show I’m an INTJ-A, an Assertive Architect. This means, for me, that I can use rational thought and ingenuity to bring a project to fruition.");
            $(".mainTextBanner2").text("Education Planner Test");
