@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+  <title>UMI - Us</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- FONT -->
+  <script src="https://kit.fontawesome.com/593aef930f.js" crossorigin="anonymous"></script>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href="styles.css" rel="stylesheet">
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+  <div class="topnav">
+      <a href="index.html" class="fas fa-circle" id="navHome"></a>
+      <a href="us.html">Us</a>
+      <a href="data.html">Data</a>
+      <a href="whitepaper.html">White Paper</a>
+      <a href="artefacts.html">Artefacts</a>
+  </div>
+
+  <div class="pageContentModal">
+    <div class="usblurb">
+      <h5 class = "h5Us">Us &mdash;</h5>
+      <p class ="tagline">We are a symbiosis of devout problem-solvers, creative savants and alpha-geek developers with a unified goal–to deliver a simple translation solution to the palm of your hand. UMI marries linguistic rights with cutting edge technology to empower people of all language backgrounds around the world.</p>
+      <h2 class = "usH2">Our Mission</h2>
+      <p class ="tagline1">To disrupt longstanding language barriers in the hospitality industry & provoke a paradigm shift in the way we interact in ordinary exchanges.</p>
+      <h2 class = "usH2">Our Vision</h2>
+      <p class ="tagline1">Realising the full potential of language translation for hospitality businesses and individuals. A world where everybody has access to a meaningful dining experience, not just those who speak the native language.</p>
+    </div>
+    <br>
+
+    <p class="h7">Collective</p>
+    <div class="container">
+        <img class = "imageRow" id="getInfo" data-toggle="modal" data-target="#details" src="Images/danHeadshot.png" alt="Daniel Blake">
+        <img class = "imageRow" id="getInfo1" data-toggle="modal" data-target="#details" src="Images/nickHeadshot.png" alt="Nicholas Drinkwater">
+        <img class = "imageRow" id="getInfo2" data-toggle="modal" data-target="#details" src="Images/abbyHeadshot.png" alt="Abby Durbridge">
+        <img class = "imageRow" id="getInfo3" data-toggle="modal" data-target="#details" src="Images/mathewHeadshot.png" alt="Mathew Dwyer">
+        <img class = "imageRow" id="getInfo4" data-toggle="modal" data-target="#details" src="Images/erinHeadshot.png" alt="Erin Paton">
+        <img class = "imageRow" id="getInfo5" data-toggle="modal" data-target="#details" src="Images/harrisonHeadshot.png" alt="Harrison Tang">
+    </div>
+    <br>
+    <p class="h7">Advisory Board</p>
+      <div class="container">
+          <img class = "imageRowBoard" id="getInfo6" data-toggle="modal" data-target="#interviewDetails" src="Images/laurenHeadshot.png" alt="Lauren Grimes">
+      </div>
+
+    <div class="modal fade" id="details">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title"></h6>
+            <h2 class="modal-title2"></h2>
+          </div>
+          <div class="modal-body">
+            <p class="mainText"></p>
+            <p class="mainTextBanner1" id="mainTextBanner"></p>
+            <p class="mainText1"></p>
+            <p class="mainTextBanner2" id="mainTextBanner"></p>
+            <p class="mainText2"></p>
+            <p class="mainTextBanner3" id="mainTextBanner"></p>
+            <p class="mainText3"></p>
+            <p class="mainTextBanner4" id="mainTextBanner"></p>
+            <p class="mainText4"></p>
+            <p class="mainTextBanner5" id="mainTextBanner"></p>
+            <p class="mainText5"></p>
+            <p class="mainText6"></p>
+            <p class="mainText7"></p>
+            <p class="mainText8"></p>
+          </div>
+
+            <div class="modal-footer">
+              <a href="" id="website" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe-asia"></i>&nbsp;</a>
+              <a href="" id="github" class="fab fa-github" target="_blank" rel="noopener noreferrer">&nbsp;</a>
+              <a href="" id="mail" class= "usTooltip" data-toggle="tooltip" title="" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope">&nbsp;</i></a>
+              <button type="button" id="closeModal" class="btn btn-primary" data-dismiss="modal">Close &nbsp;</button>
+            </div>
+        </div>
+      </div>
+    </div>
+          <div class="modal fade" id="interviewDetails">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h6 class="title">Lauren Grimes</h6>
+                  <h2 class="title2">Head of Engineering at Xplor Education</h2>
+                </div>
+                <div class="modal-body">
+                <iframe class = "interviewVideo" width="700" height="400" src="https://www.youtube.com/embed/SToHlFnwhz8"></iframe>
+              </div>
+                <div class="modal-footer">
+                  <a href="Images/transcript.pdf" id="website" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i>&nbsp;</a>
+                  <a href="Images/Interview_Transcript.pdf" id="website" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i>&nbsp;</a>
+                  <button type="button" id="closeModal" class="btn btn-primary" data-dismiss="modal">Close &nbsp;</button>
+                </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+    <div class="bottomnav">
+      <a href="references.html">&mdash; Reference Library &nbsp;</a>
+      <a href="index.html" class="fas fa-circle"></a>
+      <a href="https://github.com/blakey83/Intro-to-IT---assignment-2" class="fab fa-github" target="_blank" rel="noopener noreferrer"> &nbsp;</a>
+    </div>
+</body>
+</html>
