@@ -285,6 +285,13 @@ th{
   margin-left:80px;
 }
 
+.jobAds{
+    margin-top:20px;
+    border-top: 1px solid #dddddd;
+    padding: 15px;
+  }
+}
+
 .mainTextTech{
   font-size: 16px;
 }
