@@ -215,6 +215,7 @@ th{
 }
 
 .figuresArtefacts{
+  margin-top: 15px;
   margin-left:30px;
   float:right;
 }
@@ -223,6 +224,12 @@ th{
   margin-top:10px;
   margin-left: 22.5%;
   margin-bottom: 10px;
+}
+
+.figuresAnalysis{
+  margin-top:20px;
+  float:right;
+  margin-bottom: 40px;
 }
 
 .header {
@@ -295,6 +302,15 @@ th{
   text-align: left;
   margin:auto;
   margin-left: 50px;
+}
+
+.mainTextDataQuote{
+  font-size: 14px;
+  width:80%;
+  text-align: left;
+  margin:auto;
+  margin-left: 100px;
+  margin-top: 15px;
 }
 
 .matrix{
@@ -408,6 +424,24 @@ th{
   padding-left: 20px;
 }
 
+.scopeOfWorkLink{
+
+}
+
+.prevAssignmentLink{
+  text-decoration: underline;
+  color: #AAAAAA;
+  margin: auto;
+  text-align: center;
+}
+
+.scopeOfWorkLink:visited{
+  text-decoration: underline;
+  color: #AAAAAA;
+  margin: auto;
+  text-align: center;
+}
+
 .tableRisk{
   border-collapse: collapse;
   margin-left:10px;
@@ -440,6 +474,11 @@ th{
   margin-right: 30px;
   color: #333333;
   width:60%;
+}
+
+.timeframePitch{
+  margin:10px 0px 0px 40px;
+  border:none;
 }
 
 .title{
