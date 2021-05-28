@@ -271,4 +271,16 @@ $(document).ready(function(){
       trigger: 'focus'
   }
   });
+  $("#meeting8").popover({
+  html: true, content: function () {
+      return $('#popover-content8').html();
+      trigger: 'focus'
+  }
+  });
+  $("#meeting9").popover({
+  html: true, content: function () {
+      return $('#popover-content9').html();
+      trigger: 'focus'
+  }
+  });
 });

@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 
 <head>
-  <title>UMI - Technologies</title>
+  <title>UMI - Artefacts</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <!-- FONT -->
@@ -29,20 +29,16 @@
     <a href="artefacts.html">Artefacts</a>
   </div>
 
-
-
   <div class="pageContent">
     <h5>Artefacts &mdash;</h5>
-
-
 
     <!--Accordion 1 -->
     <div class="accordion" id="accordionParent">
       <div class="accordionCard">
         <div class="cardHeader">
-            <a class="btn" id="accBtn" data-toggle="collapse" data-target="#collapseOneAcc1"><i class="fas fa-arrow-up"></i>Figma Prototype</a>
+            <a class="btn" id="accBtn" data-toggle="collapse" data-target="#collapseOne"><i class="fas fa-arrow-up"></i>Figma Prototype</a>
         </div>
-        <div id="collapseOneAcc1" class="collapse show" data-parent="#accordionParent">
+        <div id="collapseOne" class="collapse show" data-parent="#accordionParent">
           <div class="accordionContent">
             <div class = "figmaPrototype">
               <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyDd1ss81i53cPXS9tNHBfR%2FMisc%3Fnode-id%3D11%253A2%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
@@ -51,32 +47,105 @@
         </div>
       </div>
 
-      <!--data-parent="#accordionParent" - Put in collapseTwoAcc1 or in collapseOneAcc1 if want to close when click on sibling -->
+      <!--Accordion 2 -->
       <div class="accordionCard">
         <div class="cardHeader">
-            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseTwoAcc1"><i class="fas fa-arrow-up"></i>Scope of Project</a>
+            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseTwo"><i class="fas fa-arrow-up"></i>Presentation</a>
         </div>
-        <div id="collapseTwoAcc1" class="collapse" data-parent="#accordionParent">
+        <div id="collapseTwo" class="collapse" data-parent="#accordionParent">
+          <iframe class = "presenationVideo" width="700" height="400" src="https://www.youtube.com/embed/SToHlFnwhz8"></iframe>
+        </div>
+      </div>
+
+      <!--Accordion 3 -->
+      <div class="accordionCard">
+        <div class="cardHeader">
+            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseThree"><i class="fas fa-arrow-up"></i>Scope of Project</a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordionParent">
           <div class="accordionContent"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
         </div>
       </div>
 
+      <!--Accordion 4 -->
       <div class="accordionCard">
         <div class="cardHeader">
-            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseThreeAcc1"><i class="fas fa-arrow-up"></i>Story Board and Script Draft</a>
+            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseFour"><i class="fas fa-arrow-up"></i>Risk Assessment Matrix</a>
         </div>
-        <div id="collapseThreeAcc1" class="collapse" data-parent="#accordionParent">
+        <div id="collapseFour" class="collapse" data-parent="#accordionParent">
+          <div class="accordionContent">
+            <table class="tableRisk">
+              <tr>
+                <th>Risk</th>
+                <th>Likelihood (1-5)</th>
+                <th>Consequence</th>
+                <th>Risk Rating</th>
+                <th>Action</th>
+              </tr>
+              <tr>
+                <td>Security</td>
+                <td>3</td>
+                <td>Critical</td>
+                <td>High</td>
+                <td>Identify and encrypt sensitive data, use endpoint security measures, employ security personnel.</td>
+              </tr>
+              <tr>
+                <td>Timeframe</td>
+                <td>4</td>
+                <td>Moderate</td>
+                <td>High</td>
+                <td>Strict Project Management parameters, set realistic deadlines, track thoroughly, use time estimation formula.</td>
+              </tr>
+              <tr>
+                <td>Budget</td>
+                <td>3</td>
+                <td>Moderate</td>
+                <td>Medium</td>
+                <td>Regular budget planning & reporting, MD approval required for large expenditures, hire financial advisor.</td>
+              </tr>
+              <tr>
+                <td>Demand</td>
+                <td>1</td>
+                <td>Marginal</td>
+                <td>Low</td>
+                <td>Formulate pre-launch strategy that allows early adoption for restaurants, use an auto-scaling system.</td>
+              </tr>
+              <tr>
+                <td>HR</td>
+                <td>2</td>
+                <td>Marginal</td>
+                <td>Low</td>
+                <td>Hire eternal HR company, map and document internal SOPs and escalation plan, regular open communication.</td>
+              </tr>
+              </table>
+              <img class="matrixRisk" src="Images/riskMatrix.png" alt="matrix" width="450" height="350">
+            </div>
+          </div>
+        </div>
+
+      <!--Accordion 5 -->
+      <div class="accordionCard">
+        <div class="cardHeader">
+            <a class="btn collapsed" id="accBtn" data-toggle="collapse" data-target="#collapseFive"><i class="fas fa-arrow-up"></i>Story Board and Script Draft</a>
+        </div>
+        <div id="collapseFive" class="collapse" data-parent="#accordionParent">
           <img class = "figuresArtefacts" src="Images/draftStoryboard1.png" alt="Story Board Draft" width="320" height="420">
-          <div class="accordionContent">With today’s diverse and multicultural society, as well as ease of access to travel, language barriers can be one of the hardest things to overcome. This can be especially prevalent when trying to order or purchase something from a restaurant or other hospitality business in a foreign country. That’s why we have create UMI. UMI uses smart devices and NFC technology to help streamline the translation process and eliminate the need for cumbersome verbal interpretation.</div>
-          <div class="accordionContent">We all have our reasons to travel, and we all share the same need to eat! We hope to break down the barriers and eliminate the sometimes nerve-wracking or anxiety inducing process of trying to purchase food in a foreign language. Wouldn’t you rather have a simple, easy way to communicate, rather than trying to play a bad game of charades or butchering the local language to the point of not being able to be understood. That is what UMI is all about. Here is how it works.</div>
-          <div class="accordionContent">It starts by having businesses sign up for a UMI account. When a business signs up they will be taken to a merchant specific page for their place of business. From here, they can upload menu images and descriptions, view previous orders made through UMI, manage their billing details, and more. </div>
+          <div class="accordionContent">[section 1] With todays diverse and multicultural society, as well as ease of access to travel, language barriers can be one of the hardest things to overcome. This can be especially prevalent when trying to order or purchase something from a restaurant or other hospitality business(es) in a foreign country. That’s why we created UMI.</div>
+          <div class="accordionContent">[section 2] UMI utilises smart devices and NFC technology to help streamline the translation process and eliminate the need for cumbersome verbal interpretation.</div>
+          <div class="accordionContent">[section 3] We all have our reasons to travel, and we all share the same need to eat! We hope to break down the barriers and eliminate the sometimes nerve-wracking or anxiety inducing process of trying to purchase food in a foreign language. Wouldn’t you rather have a simple, easy way to communicate, rather than trying to play a bad game of charades, or butchering the local language to the point of not being understood. That is where UMI comes to save the day. We utilise state of the art technology to take care of the process for you. NFC or Near Field Communication is used to instantly send the restaurant’s information to a customer's smart device, while Neural Machine Translation analyses the text to be translated and automatically sends it to the customer in their preferred language.</div>
+          <div class="accordionContent">[Section 4] It starts by having a business sign up for an UMI account. When a business signs up they will be taken to a merchant specific page for their place of business. From here, they can upload menu images and descriptions, view previous orders made through UMI, manage their billing details, and more. Once a menu item has been uploaded, it will be automatically stored in our database, ready for a customer to view in their preferred language. From there, all that is needed is a small NFC device readily accessible for customers to tap their smart device on.</div>
+          <div class="accordionContent">[section 5] For a customer to then make orders through UMI, they would download our UMI app from the application store, register for an account and login. Once they are an UMI member, they can select their preferred language to receive information in. Using this information, when accessing the menu of an UMI enabled business, our server will retrieve the data, and automatically translate it into the desired language using a worldwide language database. All the customer will need to do is tap their smart device to the business’ NFC device and voila, an instantly translated menu. From there, they select what they’d like to order, pay through the app, and their order is delivered to the business in their preferred language ready to satisfy their taste buds. </div>
           <img class = "figuresArtefacts" src="Images/draftStoryboard2.png" alt="Story Board Draft" width="320" height="420">
-          <div class = "accordionContent">Once a menu item has been uploaded, it will be automatically stored on our database, ready for a customer to come along and look at in their preferred language. All they would need from there is a small NFC device on their counter for their customers to tap their smart device on.</div>
-          <div class="accordionContent">For a customer to then order from the business using UMI, they would download our UMI app from their devices app store and login/sign up for an account. Once they are signed in, they can select their preferred language to receive information in. Using this information, when they try to access the menu of a UMI enabled business, our server will retrieve the data, and automatically translate it into the desired language using a worldwide language database. All the customer will need to do is tap their devices to the business’ NFC device and voila, instantly translated menu.</div>
-          <div class="accordionContent">We created this app with accessibility to the mainstream consumer experiences at its core, and to advocate for a shift in cultural relatability through the experience of food and dining. UMI aims to create and connect the ties between human experiences, both familiar and unfamiliar once again. So come check out UMI, and unlock an easy way to experience a diverse world of food and dining experiences.</div>
+          <div class="accordionContent">[Section 6] You might be thinking “this is just another translation app”; but what sets us apart is our love for creating and connecting ties between people, over great food. We accomplish this through enticing those who view foreign language as a barrier; by streamlining the translation process. Rather than having to enter menu items one by one into a translator, or try to take a photo with a visual translator; UMI is an all-in-one solution, providing an automatically translated menu, order portal, and an online payment gateway. </div>
+          <div class="accordionContent">[Section 7] It’s not all about those who travel. UMI can also be used to help those who might move to a different country, but don’t yet know the language. With UMI, they would be able to go out and enjoy dining experiences in their new home, or even start a business themselves, with the ability to connect with the locals. </div>
+          <div class="accordionContent">[Section 8] Here at UMI, we believe that linguistic rights are human rights, that’s why we created this application with accessibility to the mainstream consumer experiences at its core, and to advocate for a shift in cultural relatability through the experience of food and dining. UMI aims to create and connect the ties between human experiences, both familiar and unfamiliar once again. </div>
+          <div class="accordionContent">[Section 9] So come check out UMI, and unlock an easy way to experience a diverse world of food and dining experiences. </div>
         </div>
       </div>
+
+
+
     </div>
 
     <div class="bottomnav">
